@@ -1,0 +1,30 @@
+menu {
+    max-width: 1440px;
+    margin: auto;
+
+    .menu_main {
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+
+        span {
+            font-size: 16px;
+            font-weight: 400;
+            color: #A6A6A6;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 61px;
+            font-weight: 400;
+            color: #000000;
+            margin: 0px 0px 50px 0px;
+        }
+
+        img {
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.FAQ’s {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 80px;
+
+    .FAQ’s_nav {
+        text-align: center;
+
+        span {
+            width: 50px;
+            margin: auto;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #a6a6a6;
+        }
+
+        h1 {
+            font-size: 61px;
+            font-weight: 400;
+            color: #000000;
+        }
+    }
+
+    .FAQ’s_main {
+        margin: 60px 0px;
+
+        .card1 {
+            max-width: 700px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                color: #000000;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    span {
+        margin-left: 257px;
+        width: 700px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .FAQ’s span {
+        margin-left: 0px;
+    }
+}
